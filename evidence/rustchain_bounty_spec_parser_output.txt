@@ -1,0 +1,13 @@
+$ python examples/rustchain_bounty_spec_parser.py --demo
+title_reward_rtc=10.0
+spec_reward_rtc=25.0
+effective_reward_rtc=10.0
+paid=True
+per=one-time
+cap=1
+submit=['comment', 'email']
+not_in_repo=True
+WARNING: reward mismatch: title=10 RTC, spec=25 RTC; using title as authoritative
+
+$ python -m py_compile examples/rustchain_bounty_spec_parser.py
+PASS
