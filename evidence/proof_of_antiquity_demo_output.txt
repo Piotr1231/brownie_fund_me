@@ -1,0 +1,6 @@
+Proof-of-Antiquity temporal-stability demo
+NOTE: educational model, not RustChain production scoring.
+
+real_like        mean= 100.36 cv=0.0038 -> drifting: plausible physical-style variation
+frozen_emulator  mean= 100.00 cv=0.0000 -> frozen: suspiciously identical readings
+naive_randomizer mean= 104.10 cv=0.2192 -> noisy: unusually variable readings
