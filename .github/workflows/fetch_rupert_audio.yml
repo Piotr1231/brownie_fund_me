@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - '.github/workflows/fetch_rupert_audio.yml'
+  pull_request:
   workflow_dispatch:
 
 jobs:
